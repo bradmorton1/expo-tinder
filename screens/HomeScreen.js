@@ -14,11 +14,8 @@ class HomeScreen extends React.Component {
           renderCard={Card}
           backgroundColor="white"
           cardHorizontalMargin={0}
-          stackSize={2}
-        />
-        <Button
-          title="Go to Details... again"
-          onPress={() => this.props.navigation.navigate('Detail')}
+          stackSize={3}
+          onSwipedRight={() => this.props.navigation.navigate('Detail')}
         />
       </SafeAreaView>
     )

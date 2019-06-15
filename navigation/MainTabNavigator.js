@@ -41,9 +41,9 @@ const MessagesStack = createStackNavigator(
 )
 
 MessagesStack.navigationOptions = {
-  tabBarLabel: 'Messages',
+  tabBarLabel: 'Matches',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon Icon={Icon.FontAwesome} focused={focused} name="commenting-o" />
+    <TabBarIcon Icon={Icon.FontAwesome} focused={focused} name="heart" />
   ),
 }
 
