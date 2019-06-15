@@ -8,7 +8,6 @@ import TabBarIcon from '../components/TabBarIcon'
 import HomeScreen from '../screens/HomeScreen'
 import MessagesScreen from '../screens/MessagesScreen'
 import ProfileScreen from '../screens/ProfileScreen'
-import TopPicksScreen from '../screens/TopPicksScreen'
 
 const HomeStack = createStackNavigator(
   {
@@ -27,22 +26,6 @@ HomeStack.navigationOptions = {
       focused={focused}
       name="fire"
     />
-  ),
-}
-
-const TopPicksStack = createStackNavigator(
-  {
-    TopPicks: TopPicksScreen,
-  },
-  {
-    headerMode: 'none',
-  },
-)
-
-TopPicksStack.navigationOptions = {
-  tabBarLabel: 'TopPicks',
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon Icon={Icon.FontAwesome} focused={focused} name="diamond" />
   ),
 }
 
@@ -80,7 +63,6 @@ ProfileStack.navigationOptions = {
 
 export default createBottomTabNavigator({
   HomeStack,
-  TopPicksStack,
   MessagesStack,
   ProfileStack,
 })
