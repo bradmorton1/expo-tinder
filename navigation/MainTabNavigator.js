@@ -6,12 +6,14 @@ import {
 } from 'react-navigation'
 import TabBarIcon from '../components/TabBarIcon'
 import HomeScreen from '../screens/HomeScreen'
+import DetailScreen from '../screens/DetailScreen'
 import MessagesScreen from '../screens/MessagesScreen'
 import ProfileScreen from '../screens/ProfileScreen'
 
 const HomeStack = createStackNavigator(
   {
     Home: HomeScreen,
+    Detail: DetailScreen,
   },
   {
     headerMode: 'none',
