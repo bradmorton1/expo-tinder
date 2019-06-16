@@ -16,7 +16,7 @@ class SettingsScreen extends Component {
   onSave() {
     const { age, postcode } = this.state;
 
-    Alert.alert('Credentials', `${age} + ${postcode}`);
+    this.props.navigation.navigate('Home')
   }
 
   doSomething() {
