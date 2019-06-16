@@ -26,7 +26,7 @@ HomeStack.navigationOptions = {
     <TabBarIcon
       Icon={Icon.MaterialCommunityIcons}
       focused={focused}
-      name="fire"
+      name="magnify"
     />
   ),
 }
