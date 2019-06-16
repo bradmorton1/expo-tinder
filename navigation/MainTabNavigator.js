@@ -8,7 +8,7 @@ import TabBarIcon from '../components/TabBarIcon'
 import HomeScreen from '../screens/HomeScreen'
 import DetailScreen from '../screens/DetailScreen'
 import MessagesScreen from '../screens/MessagesScreen'
-import ProfileScreen from '../screens/ProfileScreen'
+import SettingsScreen from '../screens/SettingsScreen'
 
 const HomeStack = createStackNavigator(
   {
@@ -49,7 +49,7 @@ MessagesStack.navigationOptions = {
 
 const ProfileStack = createStackNavigator(
   {
-    Profile: ProfileScreen,
+    Profile: SettingsScreen,
   },
   {
     headerMode: 'none',
