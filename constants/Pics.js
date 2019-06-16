@@ -2,9 +2,9 @@ import shuffleArray from '../utils/shuffleArray'
 
 export const HomeScreenPics = [
   {
-    pic: require('../assets/images/women/women1.jpg'),
-    title: 'Amelia, 27',
-    caption: '16 miles away',
+    pic: require('../assets/images/BIBcard.jpg'),
+    title: 'Blind in Business',
+    caption: '',
   },
   {
     pic: require('../assets/images/women/women2.jpg'),
