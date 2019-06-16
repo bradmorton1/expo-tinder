@@ -51,7 +51,7 @@ class SettingsScreen extends Component {
           <Button
 
           large
-          title={'Cateracts'}
+          title={'Cataracts'}
           onPress={this.doSomething.bind(this, 'cateracts')}
           buttonStyle={{ marginBottom: 10, height: 50, width: 260, borderRadius: 5, backgroundColor: this.state.cateracts ? "#e1622b" : '#ab4c22'}}          />
           <Button

@@ -21,7 +21,7 @@ const HomeStack = createStackNavigator(
 )
 
 HomeStack.navigationOptions = {
-  tabBarLabel: 'Home',
+  tabBarLabel: 'Find',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       Icon={Icon.MaterialCommunityIcons}
