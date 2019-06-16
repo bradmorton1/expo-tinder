@@ -41,12 +41,13 @@ const styles = StyleSheet.create({
   },
   title: {
     position: 'absolute',
-    flex: 1,
-    bottom: 10,
+    left: 10,
+    bottom: 100,
+
   },
   caption: {
     position: 'absolute',
     left: 10,
-    bottom: 10,
+    top: 10,
   },
 })
