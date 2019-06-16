@@ -23,8 +23,8 @@ export const HomeScreenPics = [
   },
   {
     pic: require('../assets/images/women/women11.jpg'),
-    title: 'Missing something?',
-    caption: 'Do something here if you are',
+    title: '',
+    caption: '',
   }
 ]
 
