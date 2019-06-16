@@ -17,6 +17,7 @@ class MessagesScreen extends React.Component {
               subtitle={user.message}
               subtitleStyle={styles.subtitle}
               chevron
+              onPress={() => this.props.navigation.navigate('Detail')}
             />
           ))}
         </ScrollView>

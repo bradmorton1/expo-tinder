@@ -4,6 +4,8 @@ import Swiper from 'react-native-deck-swiper'
 import { Card } from '../components/Card'
 import { HomeScreenPics } from '../constants/Pics'
 
+// this.props.navigation.navigate('Detail')
+
 class HomeScreen extends React.Component {
   render() {
     console.log(this.props.navigation)
@@ -15,7 +17,8 @@ class HomeScreen extends React.Component {
           backgroundColor="white"
           cardHorizontalMargin={0}
           stackSize={3}
-          onSwipedRight={() => this.props.navigation.navigate('Detail')}
+          // onTapCard={(idx) => console.log(idx)}
+          onTapCard={() => this.props.navigation.navigate('Detail')}
         />
       </SafeAreaView>
     )
