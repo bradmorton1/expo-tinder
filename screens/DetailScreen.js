@@ -9,56 +9,81 @@ class HomeScreen extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-      <Card title="Details">
-      <Text>Hello Moto</Text>
+      <Card title="Blind In Business">
+
         <Text style={{fontWeight: 'bold', textAlign: 'center'}}>
         Services provided:
         </Text>
         <Text>
-        {'\u2022'} Activities Program{'\n'}
-        {'\u2022'} Computer Training & New Technology{'\n'}
-        {'\u2022'} Creative{'\n'}
-        {'\u2022'} Healthy Living{'\n'}
-        {'\u2022'} Lunch Service{'\n'}
-        {'\n'}
-        {'\n'}
+          Blind in Business help people who are blind or have partial sight back into work.{'\n'}
+          {'\n'}
+          {'\u2713'} Activities Program{'\n'}
+          {'\u2713'} Computer Training & New Technology{'\n'}
+          {'\u2713'} Creative{'\n'}
+          {'\u2713'} Healthy Living{'\n'}
+          {'\u2713'} Lunch Service{'\n'}
         </Text>
       </Card>
       <View style={{ flex: 1, paddingTop: 20, paddingBottom: 20 }}>
         <MapView
           style={{ flex: 1 }}
           initialRegion={{
-            latitude: 51.380712,
-            longitude: -0.099350,
+            latitude: 51.512960,
+            longitude: -0.098840,
             latitudeDelta: 0.0010,
             longitudeDelta: 0.0010,
           }}
         >
         <MapView.Marker
-            coordinate={{latitude: 51.380712,
-            longitude: -0.099350}}
-            title={"title"}
-            description={"description"}
+            coordinate={{latitude: 51.512960,
+            longitude: -0.098840}}
+            title={"Blind In Business"}
+            description={"Blind In Business"}
          />
          </MapView>
         </View>
-      <Card containerStyle={{marginBottom: 8}} title="Contact">
         <View style={{
             paddingVertical: 15,
+            paddingHorizontal: 10,
+            // padding: 16,
+        }}>
+          <View style={{
+            paddingVertical: 3,
             paddingHorizontal: 10,
             flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
-            // padding: 16,
         }}>
           <Icon
           name='email'
           />
+          <Text> Email: info@blindinbusiness.org.uk</Text>
+          </View>
+          <View style={{
+            paddingVertical: 3,
+            paddingHorizontal: 10,
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+        }}>
           <Icon
           name='phone'
           />
+          <Text> Phone: 020 7588 1885</Text>
+          </View>
+          <View style={{
+            paddingVertical: 3,
+            paddingHorizontal: 10,
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+        }}>
+          <Icon
+          name='language'
+          />
+          <Text> Website: https://www.blindinbusiness.org.uk/</Text>
+          </View>
         </View>
-      </Card>
 
       <View style={{
           paddingVertical: 15,
