@@ -9,7 +9,7 @@ class HomeScreen extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-      <Card title="Blind In Business">
+      <Card title="Blind in Business">
 
         <Text style={{fontWeight: 'bold', textAlign: 'center'}}>
         Services provided:
@@ -37,8 +37,8 @@ class HomeScreen extends React.Component {
         <MapView.Marker
             coordinate={{latitude: 51.512960,
             longitude: -0.098840}}
-            title={"Blind In Business"}
-            description={"Blind In Business"}
+            title={"Blind in Business"}
+            description={"Blind in Business"}
          />
          </MapView>
         </View>
