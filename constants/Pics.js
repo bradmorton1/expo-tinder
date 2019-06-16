@@ -2,17 +2,17 @@ import shuffleArray from '../utils/shuffleArray'
 
 export const HomeScreenPics = [
   {
-    pic: require('../assets/images/BIBcard.jpg'),
-    title: '',
-    caption: '',
-  },
-  {
     pic: require('../assets/images/dog.jpg'),
     title: '',
     caption: '',
   },
   {
     pic: require('../assets/images/rnibcard.jpg'),
+    title: '',
+    caption: '',
+  },
+  {
+    pic: require('../assets/images/BIBcard.jpg'),
     title: '',
     caption: '',
   },
